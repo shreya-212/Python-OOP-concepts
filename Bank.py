@@ -4,12 +4,19 @@ class Bank:
         self.balance=balance
     
     def deposit(self,amt):
-        self.balance+=amt
-        print(f"Amount {amt} has  added to account{self.accno} ")
+        if amt>0:
+            self.balance+=amt
+            print(f"Amount {amt} has  been deposited to account{self.accno} ")
+        else:
+            print("Deposit amt must be positive")
+        
 
     def withdraw(self,amt):
-        self.balance-=amt
-        print(f"Amount {amt} has been withdrawn from {self.accno} ")
+        if amt<=self.balance:
+            self.balance-=amt
+            print(f"Amount {amt} has been withdrawn from {self.accno} ")
+        else:
+            print("Insufficient balance")
 
     def show_bal(self):
         print(f"your balance is {self.balance}")
@@ -19,7 +26,7 @@ b.deposit(500)
 b.withdraw(500)
 b.show_bal()
 
-c=Bank(200,100)
-c.deposit(20)
-c.withdraw(10)
+c=Bank(200,2200)
+c.deposit(400)
+c.withdraw(200)
 c.show_bal()
