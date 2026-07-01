@@ -14,13 +14,15 @@ class NumberSequence:
 
 seq1=NumberSequence("Test Scores",[10,7,8,9])
 seq2=NumberSequence("puzzle ",[2,4,6,1,6])
-    
+
+#Access instance attributes   
 print(f"Sequence 1 Name:{seq1.seq_name}")
 print(f"Sequence 1 Data:{seq1.seq_data}")
 
 print(f"Sequence 2 Name:{seq2.seq_name}")
 print(f"Sequence 2 Data:{seq2.seq_data}")
 
+#access class attribute
 print(f"Subject category of sequence 1: {seq1.subject_category}")
 print(f"Subject category of sequence 2: {seq2.subject_category}")
 

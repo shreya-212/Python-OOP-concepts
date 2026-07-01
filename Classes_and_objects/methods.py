@@ -1,4 +1,5 @@
-
+# Concept: Methods in Object-Oriented Programming
+# Methods are functions inside a class that define what an object can DO.
 
 class Beverage:
     def __init__(self,drink_type):
@@ -20,6 +21,7 @@ class Beverage:
         print(f"{self.drink_type} is now full!")
 
 Water_cup=Beverage("Water")
+
 
 Water_cup.takeSip(50)
 Water_cup.takeSip(50) #cup empties 
