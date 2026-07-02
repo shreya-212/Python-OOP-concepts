@@ -1,5 +1,5 @@
 
-# Concept: Attributes in Object-Oriented Programming
+# Concept: Attributes in Object-Oriented Programming.
 # Attributes represent the data, properties, or state of a class and its objects.
 
 

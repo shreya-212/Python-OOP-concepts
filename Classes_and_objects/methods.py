@@ -1,4 +1,4 @@
-# Concept: Methods in Object-Oriented Programming
+# Concept: Methods in Object-Oriented Programming.
 # Methods are functions inside a class that define what an object can DO.
 
 class Beverage:
