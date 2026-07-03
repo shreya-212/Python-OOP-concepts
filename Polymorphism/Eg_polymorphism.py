@@ -1,5 +1,5 @@
 # Concept: Polymorphism
-#  Polymorphism allows different classes to have methods with the exact same name but different underlying logic.
+# Polymorphism allows different classes to have methods with the exact same name but different underlying logic.
 #  This lets you loop through a collection of different objects and call the same method on all of them uniformly, 
 # without caring about their specific class type
 
